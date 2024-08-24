@@ -47,6 +47,8 @@ class Platform(Objects):
     obj_name = "platform"
 
 puh = pygame.image.load(Vinni.png)
-urchin = pygame.image.load(C:\Users\Иван\Documents\GitHub\Lesson-OB-05-Game-platformer\q.png)
-coin = pygame.image.load(coin40.png)
+urchin = pygame.image.load(C://Users//Иван//Documents//GitHub//Lesson-OB-05-Game-platformer//q)
+coin = pygame.image.load(C:\\Users\\Иван\\Documents\\GitHub\\Lesson-OB-05-Game-platformer\\coin40.png)
 platform = pygame.image.load(platform150.png)
+
+file_path = os.path.join('Vinni', )
