@@ -223,16 +223,16 @@ while running:
         print("упс")
         display_message(screen, "Жаль. Ты проиграл.", font, (255, 0, 0), (200, SCREEN_HEIGHT // 2))
         pygame.display.flip()  # Обновление экрана
-        time.sleep(10)
+        time.sleep(1)
         running = False
 
     # # Проверка победы
     if player.coins_collected >= MONET_COUNT_TO_WIN:
         game_over = True
         print("Победа!")
-        display_message(screen, "Ура! Ты победил!", font, (75, 0, 130), (SCREEN_WIDTH // 2 - 150, SCREEN_HEIGHT // 2))
+        display_message(screen, "Ура! Ты победил!", font, (75, 0, 130), (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2))
         pygame.display.flip()  # Обновление экрана
-        time.sleep(10)
+        time.sleep(1)
         running = False
 
 
